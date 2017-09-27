@@ -12,6 +12,8 @@
     <language id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure">
       <concept id="1169125787135" name="jetbrains.mps.lang.structure.structure.AbstractConceptDeclaration" flags="ig" index="PkWjJ">
         <property id="6714410169261853888" name="conceptId" index="EcuMT" />
+        <property id="4628067390765956807" name="final" index="R5$K2" />
+        <property id="4628067390765956802" name="abstract" index="R5$K7" />
         <property id="5092175715804935370" name="conceptAlias" index="34LRSv" />
         <child id="1071489727083" name="linkDeclaration" index="1TKVEi" />
         <child id="1071489727084" name="propertyDeclaration" index="1TKVEl" />
@@ -62,6 +64,7 @@
   <node concept="1TIwiD" id="4pEhXOCg4O2">
     <property role="EcuMT" value="5073946945374932226" />
     <property role="TrG5h" value="VariableDeclaration" />
+    <property role="34LRSv" value="let" />
     <ref role="1TJDcQ" node="4pEhXOCg5uT" resolve="Statement" />
     <node concept="1TJgyj" id="4pEhXOCg5vc" role="1TKVEi">
       <property role="IQ2ns" value="5073946945374934988" />
@@ -85,6 +88,7 @@
   <node concept="1TIwiD" id="4pEhXOCg5uS">
     <property role="EcuMT" value="5073946945374934968" />
     <property role="TrG5h" value="FunctionDeclaration" />
+    <property role="34LRSv" value="function" />
     <ref role="1TJDcQ" node="4pEhXOCg5uT" resolve="Statement" />
     <node concept="PrWs8" id="4pEhXOCg5uX" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
@@ -114,6 +118,8 @@
   <node concept="1TIwiD" id="4pEhXOCg5uT">
     <property role="EcuMT" value="5073946945374934969" />
     <property role="TrG5h" value="Statement" />
+    <property role="R5$K7" value="true" />
+    <property role="R5$K2" value="false" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
   </node>
   <node concept="1TIwiD" id="4pEhXOCg5v1">
